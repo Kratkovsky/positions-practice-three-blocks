@@ -50,6 +50,7 @@
   border-radius: 50%;
   background-color: white;
   opacity: 0.33;
+  overflow: hidden;
 }
 
 .bottom-text::after {
@@ -63,6 +64,7 @@
   border-radius: 50%;
   background-color: white;
   opacity: 0.33;
+  overflow: hidden;
 }
 
 .block-2 {

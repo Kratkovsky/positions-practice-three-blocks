@@ -12,22 +12,23 @@
   font-size: 18px;
 }
 
-.top-text {
+.top-text, .img, .numbers, .bottom-text {
   position: absolute; 
+}
+
+.top-text {
   top: 30px;
   left: 40px;
   font-family:Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
 }
 
 .img {
-  position: absolute;
   top: 20px;
   right: 40px;
   max-width: 30px;
 }
 
 .numbers {
-  position: absolute;
   top: 60px;
   left: 40px;
   font-size: 24px;
@@ -35,9 +36,33 @@
 }
 
 .bottom-text {
-  position: absolute;
   bottom: 40px;
   left: 40px;
+}
+
+.numbers::after{
+  content: '';
+  position: relative;
+  top: 30px;
+  left: 150px;
+  padding: 100px;
+  border: 1px solid white;
+  border-radius: 50%;
+  background-color: white;
+  opacity: 0.33;
+}
+
+.bottom-text::after {
+  content: '';
+  position: relative;
+  top: 140px;
+  left: 40px;
+  padding: 100px;
+  display: inline-block;
+  border: 1px solid white;
+  border-radius: 50%;
+  background-color: white;
+  opacity: 0.33;
 }
 
 .block-2 {

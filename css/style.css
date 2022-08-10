@@ -1,0 +1,40 @@
+.blok-1 {
+  position: relative;
+  width: 400px;
+  height: 200px;
+  padding: 100px;
+  margin: 50px;
+  border-radius: 5%;
+  color: white;
+  background: rgb(255,204,153);
+  background: linear-gradient(87deg, rgba(255,204,153,1) 0%, rgba(255,129,148,1) 62%);
+  font-size: 18px;
+}
+
+.top-text {
+  position: absolute; 
+  top: 30px;
+  left: 40px;
+  font-family:Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+}
+
+.img {
+  position: absolute;
+  top: 20px;
+  right: 40px;
+  max-width: 30px;
+}
+
+.numbers {
+  position: absolute;
+  top: 60px;
+  left: 40px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.bottom-text {
+  position: absolute;
+  bottom: 40px;
+  left: 40px;
+}

@@ -1,4 +1,5 @@
-.blok-1 {
+.block-1, .block-2, .block-3 {
+  display: inline-block;
   position: relative;
   width: 400px;
   height: 200px;
@@ -37,4 +38,14 @@
   position: absolute;
   bottom: 40px;
   left: 40px;
+}
+
+.block-2 {
+  background: rgb(153,220,255);
+  background: linear-gradient(87deg, rgba(153,220,255,1) 0%, rgba(1,126,205,1) 36%);
+}
+
+.block-3{
+  background: rgb(157,255,153);
+  background: linear-gradient(87deg, rgba(157,255,153,1) 0%, rgba(7,210,188,1) 23%);
 }
